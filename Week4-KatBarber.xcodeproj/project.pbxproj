@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A866E5E429F49A3800DBDD3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866E5E329F49A3800DBDD3F /* AppDelegate.swift */; };
+		A866E5E629F49A3800DBDD3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866E5E529F49A3800DBDD3F /* SceneDelegate.swift */; };
+		A866E5E829F49A3800DBDD3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866E5E729F49A3800DBDD3F /* ContentView.swift */; };
+		A866E5EB29F49A3800DBDD3F /* Week4_KatBarber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A866E5E929F49A3800DBDD3F /* Week4_KatBarber.xcdatamodeld */; };
+		A866E5ED29F49A3F00DBDD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A866E5EC29F49A3F00DBDD3F /* Assets.xcassets */; };
+		A866E5F029F49A3F00DBDD3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A866E5EF29F49A3F00DBDD3F /* Preview Assets.xcassets */; };
+		A866E5F329F49A3F00DBDD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A866E5F129F49A3F00DBDD3F /* LaunchScreen.storyboard */; };
+		A866E5FE29F49A3F00DBDD3F /* Week4_KatBarberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866E5FD29F49A3F00DBDD3F /* Week4_KatBarberTests.swift */; };
+		A866E60929F49A3F00DBDD3F /* Week4_KatBarberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A866E60829F49A3F00DBDD3F /* Week4_KatBarberUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A866E5FA29F49A3F00DBDD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866E5D829F49A3800DBDD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A866E5DF29F49A3800DBDD3F;
+			remoteInfo = "Week4-KatBarber";
+		};
+		A866E60529F49A3F00DBDD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A866E5D829F49A3800DBDD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A866E5DF29F49A3800DBDD3F;
+			remoteInfo = "Week4-KatBarber";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A866E5E029F49A3800DBDD3F /* Week4-KatBarber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week4-KatBarber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A866E5E329F49A3800DBDD3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A866E5E529F49A3800DBDD3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A866E5E729F49A3800DBDD3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A866E5EA29F49A3800DBDD3F /* Week4_KatBarber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week4_KatBarber.xcdatamodel; sourceTree = "<group>"; };
+		A866E5EC29F49A3F00DBDD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A866E5EF29F49A3F00DBDD3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A866E5F229F49A3F00DBDD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A866E5F429F49A3F00DBDD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A866E5F929F49A3F00DBDD3F /* Week4-KatBarberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week4-KatBarberTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A866E5FD29F49A3F00DBDD3F /* Week4_KatBarberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_KatBarberTests.swift; sourceTree = "<group>"; };
+		A866E5FF29F49A3F00DBDD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A866E60429F49A3F00DBDD3F /* Week4-KatBarberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week4-KatBarberUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A866E60829F49A3F00DBDD3F /* Week4_KatBarberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_KatBarberUITests.swift; sourceTree = "<group>"; };
+		A866E60A29F49A3F00DBDD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A866E5DD29F49A3800DBDD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866E5F629F49A3F00DBDD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866E60129F49A3F00DBDD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A866E5D729F49A3800DBDD3F = {
+			isa = PBXGroup;
+			children = (
+				A866E5E229F49A3800DBDD3F /* Week4-KatBarber */,
+				A866E5FC29F49A3F00DBDD3F /* Week4-KatBarberTests */,
+				A866E60729F49A3F00DBDD3F /* Week4-KatBarberUITests */,
+				A866E5E129F49A3800DBDD3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A866E5E129F49A3800DBDD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A866E5E029F49A3800DBDD3F /* Week4-KatBarber.app */,
+				A866E5F929F49A3F00DBDD3F /* Week4-KatBarberTests.xctest */,
+				A866E60429F49A3F00DBDD3F /* Week4-KatBarberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A866E5E229F49A3800DBDD3F /* Week4-KatBarber */ = {
+			isa = PBXGroup;
+			children = (
+				A866E5E329F49A3800DBDD3F /* AppDelegate.swift */,
+				A866E5E529F49A3800DBDD3F /* SceneDelegate.swift */,
+				A866E5E729F49A3800DBDD3F /* ContentView.swift */,
+				A866E5EC29F49A3F00DBDD3F /* Assets.xcassets */,
+				A866E5F129F49A3F00DBDD3F /* LaunchScreen.storyboard */,
+				A866E5F429F49A3F00DBDD3F /* Info.plist */,
+				A866E5E929F49A3800DBDD3F /* Week4_KatBarber.xcdatamodeld */,
+				A866E5EE29F49A3F00DBDD3F /* Preview Content */,
+			);
+			path = "Week4-KatBarber";
+			sourceTree = "<group>";
+		};
+		A866E5EE29F49A3F00DBDD3F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A866E5EF29F49A3F00DBDD3F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A866E5FC29F49A3F00DBDD3F /* Week4-KatBarberTests */ = {
+			isa = PBXGroup;
+			children = (
+				A866E5FD29F49A3F00DBDD3F /* Week4_KatBarberTests.swift */,
+				A866E5FF29F49A3F00DBDD3F /* Info.plist */,
+			);
+			path = "Week4-KatBarberTests";
+			sourceTree = "<group>";
+		};
+		A866E60729F49A3F00DBDD3F /* Week4-KatBarberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A866E60829F49A3F00DBDD3F /* Week4_KatBarberUITests.swift */,
+				A866E60A29F49A3F00DBDD3F /* Info.plist */,
+			);
+			path = "Week4-KatBarberUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A866E5DF29F49A3800DBDD3F /* Week4-KatBarber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A866E60D29F49A3F00DBDD3F /* Build configuration list for PBXNativeTarget "Week4-KatBarber" */;
+			buildPhases = (
+				A866E5DC29F49A3800DBDD3F /* Sources */,
+				A866E5DD29F49A3800DBDD3F /* Frameworks */,
+				A866E5DE29F49A3800DBDD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week4-KatBarber";
+			productName = "Week4-KatBarber";
+			productReference = A866E5E029F49A3800DBDD3F /* Week4-KatBarber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A866E5F829F49A3F00DBDD3F /* Week4-KatBarberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A866E61029F49A3F00DBDD3F /* Build configuration list for PBXNativeTarget "Week4-KatBarberTests" */;
+			buildPhases = (
+				A866E5F529F49A3F00DBDD3F /* Sources */,
+				A866E5F629F49A3F00DBDD3F /* Frameworks */,
+				A866E5F729F49A3F00DBDD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A866E5FB29F49A3F00DBDD3F /* PBXTargetDependency */,
+			);
+			name = "Week4-KatBarberTests";
+			productName = "Week4-KatBarberTests";
+			productReference = A866E5F929F49A3F00DBDD3F /* Week4-KatBarberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A866E60329F49A3F00DBDD3F /* Week4-KatBarberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A866E61329F49A3F00DBDD3F /* Build configuration list for PBXNativeTarget "Week4-KatBarberUITests" */;
+			buildPhases = (
+				A866E60029F49A3F00DBDD3F /* Sources */,
+				A866E60129F49A3F00DBDD3F /* Frameworks */,
+				A866E60229F49A3F00DBDD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A866E60629F49A3F00DBDD3F /* PBXTargetDependency */,
+			);
+			name = "Week4-KatBarberUITests";
+			productName = "Week4-KatBarberUITests";
+			productReference = A866E60429F49A3F00DBDD3F /* Week4-KatBarberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A866E5D829F49A3800DBDD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A866E5DF29F49A3800DBDD3F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A866E5F829F49A3F00DBDD3F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A866E5DF29F49A3800DBDD3F;
+					};
+					A866E60329F49A3F00DBDD3F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A866E5DF29F49A3800DBDD3F;
+					};
+				};
+			};
+			buildConfigurationList = A866E5DB29F49A3800DBDD3F /* Build configuration list for PBXProject "Week4-KatBarber" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A866E5D729F49A3800DBDD3F;
+			productRefGroup = A866E5E129F49A3800DBDD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A866E5DF29F49A3800DBDD3F /* Week4-KatBarber */,
+				A866E5F829F49A3F00DBDD3F /* Week4-KatBarberTests */,
+				A866E60329F49A3F00DBDD3F /* Week4-KatBarberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A866E5DE29F49A3800DBDD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866E5F329F49A3F00DBDD3F /* LaunchScreen.storyboard in Resources */,
+				A866E5F029F49A3F00DBDD3F /* Preview Assets.xcassets in Resources */,
+				A866E5ED29F49A3F00DBDD3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866E5F729F49A3F00DBDD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866E60229F49A3F00DBDD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A866E5DC29F49A3800DBDD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866E5E429F49A3800DBDD3F /* AppDelegate.swift in Sources */,
+				A866E5EB29F49A3800DBDD3F /* Week4_KatBarber.xcdatamodeld in Sources */,
+				A866E5E629F49A3800DBDD3F /* SceneDelegate.swift in Sources */,
+				A866E5E829F49A3800DBDD3F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866E5F529F49A3F00DBDD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866E5FE29F49A3F00DBDD3F /* Week4_KatBarberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A866E60029F49A3F00DBDD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A866E60929F49A3F00DBDD3F /* Week4_KatBarberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A866E5FB29F49A3F00DBDD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A866E5DF29F49A3800DBDD3F /* Week4-KatBarber */;
+			targetProxy = A866E5FA29F49A3F00DBDD3F /* PBXContainerItemProxy */;
+		};
+		A866E60629F49A3F00DBDD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A866E5DF29F49A3800DBDD3F /* Week4-KatBarber */;
+			targetProxy = A866E60529F49A3F00DBDD3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A866E5F129F49A3F00DBDD3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A866E5F229F49A3F00DBDD3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A866E60B29F49A3F00DBDD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A866E60C29F49A3F00DBDD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A866E60E29F49A3F00DBDD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Week4-KatBarber/Preview Content\"";
+				DEVELOPMENT_TEAM = 6X5K6FX2KM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Week4-KatBarber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Week4-KatBarber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A866E60F29F49A3F00DBDD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Week4-KatBarber/Preview Content\"";
+				DEVELOPMENT_TEAM = 6X5K6FX2KM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Week4-KatBarber/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Week4-KatBarber";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A866E61129F49A3F00DBDD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5K6FX2KM;
+				INFOPLIST_FILE = "Week4-KatBarberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Week4-KatBarberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week4-KatBarber.app/Week4-KatBarber";
+			};
+			name = Debug;
+		};
+		A866E61229F49A3F00DBDD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5K6FX2KM;
+				INFOPLIST_FILE = "Week4-KatBarberTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Week4-KatBarberTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week4-KatBarber.app/Week4-KatBarber";
+			};
+			name = Release;
+		};
+		A866E61429F49A3F00DBDD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5K6FX2KM;
+				INFOPLIST_FILE = "Week4-KatBarberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Week4-KatBarberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week4-KatBarber";
+			};
+			name = Debug;
+		};
+		A866E61529F49A3F00DBDD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X5K6FX2KM;
+				INFOPLIST_FILE = "Week4-KatBarberUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.Week4-KatBarberUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week4-KatBarber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A866E5DB29F49A3800DBDD3F /* Build configuration list for PBXProject "Week4-KatBarber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866E60B29F49A3F00DBDD3F /* Debug */,
+				A866E60C29F49A3F00DBDD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866E60D29F49A3F00DBDD3F /* Build configuration list for PBXNativeTarget "Week4-KatBarber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866E60E29F49A3F00DBDD3F /* Debug */,
+				A866E60F29F49A3F00DBDD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866E61029F49A3F00DBDD3F /* Build configuration list for PBXNativeTarget "Week4-KatBarberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866E61129F49A3F00DBDD3F /* Debug */,
+				A866E61229F49A3F00DBDD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A866E61329F49A3F00DBDD3F /* Build configuration list for PBXNativeTarget "Week4-KatBarberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A866E61429F49A3F00DBDD3F /* Debug */,
+				A866E61529F49A3F00DBDD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A866E5E929F49A3800DBDD3F /* Week4_KatBarber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A866E5EA29F49A3800DBDD3F /* Week4_KatBarber.xcdatamodel */,
+			);
+			currentVersion = A866E5EA29F49A3800DBDD3F /* Week4_KatBarber.xcdatamodel */;
+			path = Week4_KatBarber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A866E5D829F49A3800DBDD3F /* Project object */;
+}
